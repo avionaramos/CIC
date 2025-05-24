@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Grandiose Prime Bakery</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="icon" type="image/x-icon" href="../Assets/gpbl.png">
 </head>
@@ -68,7 +69,7 @@
     <div id="basketPopup" class="basket-popup" style="display: none;">
       <div class="basket-content">
         <span class="close-button">&times;</span>
-        <h2>Your Basket</h2>
+        <h2 class="your-basket">Your Basket</h2>
 
         <div id="favorites-section">
           <h3>Favorites</h3>
@@ -92,19 +93,15 @@
       <div class="carousel-track">
         <div class="carousel-slide">
           <img src="../Assets/donuts-banner.png" alt="Slide 1">
-          <button class="purchase-btn">Purchase</button>
         </div>
         <div class="carousel-slide">
           <img src="../Assets/croissant-banner.png" alt="Slide 2">
-          <button class="purchase-btn">Purchase</button>
         </div>
         <div class="carousel-slide">
           <img src="../Assets/freshlybakedcookies.png" alt="Slide 3">
-          <button class="purchase-btn">Purchase</button>
         </div>
         <div class="carousel-slide">
           <img src="../Assets/cheeseburger-banner.png" alt="Slide 4">
-          <button class="purchase-btn">Purchase</button>
         </div>
       </div>
       <div class="carousel-dots">
@@ -116,6 +113,7 @@
     </section>
   </header>
 
+  <!-- About Section -->
   <section id="about-primebakery">
     <div class="split-left">
       <div class="image-wrapper">
@@ -215,7 +213,7 @@
             <img src="../Assets/Quality Food.png" alt="Quality Foods" />
           </div>
           <h3 class="feature-title">Quality Foods</h3>
-          <p class="feature-descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <p class="feature-descrip">Freshly crafted, premium baked goods, daily from Grandiose PrimeBakery.</p>
         </div>
 
         <div class="items">
@@ -223,7 +221,7 @@
             <img src="../Assets/Fastest Delivery.png" alt="Fastest Delivery" />
           </div>
           <h3 class="feature-title">Fastest Delivery</h3>
-          <p class="feature-descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <p class="feature-descrip">From oven to doorstep — enjoy warm, fresh bakes delivered in no time.</p>
         </div>
 
         <div class="items">
@@ -231,13 +229,14 @@
             <img src="../Assets/Good Service.png" alt="Good Service" />
           </div>
           <h3 class="feature-title">Good Service</h3>
-          <p class="feature-descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <p class="feature-descrip">Experience attentive, reliable service that puts your satisfaction first.</p>
         </div>
 
       </div>
     </div>
   </section>
 
+  <!-- Product Section -->
   <section class="product-section">
     <div class="product-container">
       <div class="product-heading">
@@ -279,7 +278,7 @@
             <p class="product-subtext">per piece</p>
           </div>
           <div class="products">
-            <p class="price">AED 7.80</p>
+            <p class="price">AED 8.50</p>
             <button class="product-button">Add To Basket</button>
           </div>
         </div>
@@ -297,7 +296,7 @@
             <p class="product-subtext">per piece</p>
           </div>
           <div class="products">
-            <p class="price">AED 7.80</p>
+            <p class="price">AED 3.00</p>
             <button class="product-button">Add To Basket</button>
           </div>
         </div>
@@ -315,7 +314,7 @@
             <p class="product-subtext">per piece</p>
           </div>
           <div class="products">
-            <p class="price">AED 7.80</p>
+            <p class="price">AED 12.00</p>
             <button class="product-button">Add To Basket</button>
           </div>
         </div>
@@ -333,7 +332,7 @@
             <p class="product-subtext">per piece</p>
           </div>
           <div class="products">
-            <p class="price">AED 7.80</p>
+            <p class="price">AED 4.00</p>
             <button class="product-button">Add To Basket</button>
           </div>
         </div>
@@ -351,7 +350,7 @@
             <p class="product-subtext">per piece</p>
           </div>
           <div class="products">
-            <p class="price">AED 7.80</p>
+            <p class="price">AED 17.00</p>
             <button class="product-button">Add To Basket</button>
           </div>
         </div>
@@ -359,6 +358,11 @@
     </div>
   </section>
 
+  <!-- Download App Section -->
+  <img class="mobile-app" src="https://www.grandiose.ae/media/wysiwyg/download.png" alt="Download App"
+    class="download-app">
+
+  <!-- Contact -->
   <section id="footer">
     <div class="Contact">
 
